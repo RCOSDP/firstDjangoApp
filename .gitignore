@@ -19,7 +19,7 @@ Thumbs.db
 *.egg
 *.egg-info
 eggs
-__pycache__
+__pycache__/
 .coverage
 cover/
 
