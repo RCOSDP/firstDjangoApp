@@ -2,7 +2,7 @@
 source = .
 
 [report]
-omit = 
+omit = */tests/* 
        */migrations/*
        *__init__.py
 show_missing = True
