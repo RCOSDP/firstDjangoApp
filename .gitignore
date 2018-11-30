@@ -1,0 +1,25 @@
+# OS generated files
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+*.swp
+*~
+
+
+# Python
+#######################
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+eggs
+__pycache__
+.coverage
+cover/
+
