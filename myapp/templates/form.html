@@ -2,15 +2,22 @@
 {% block content %}
 <h2>メッセージ作成</h2>
 <form action="" method="post">
-  {{ form }}
+  <table>
+  {% for field in form %}
+    <tr>
+      <td>{{ field.label_tag }}</td>
+      <td>{{ field }}</td>
+    </tr>
+  {% endfor %}
   {% csrf_token %}
+  </table>
   <button type="submit" class="btn btn-primary">送信</button>
 </form>
 <h2>メッセージ一覧</h2>
 <table class="table">
     {% for message in object_list %}
         <tr>
-            <td>{{ message.text }}</td>
+            <td>{{ message.text|linebreaks }}</td>
         </tr>
     {% endfor %}
 </table>

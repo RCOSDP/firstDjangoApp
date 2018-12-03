@@ -22,4 +22,4 @@ class MessageModelTests(TestCase):
 
         messages = Message.objects.all()
         msg = messages[0]
-        self.assertEqual(msg.text,text)
+        self.assertEqual(msg.text, text)

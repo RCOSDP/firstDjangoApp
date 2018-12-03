@@ -1,7 +1,6 @@
 from django.test import TestCase
-from django.core.urlresolvers import reverse
-import myapp.views
 from myapp.models import Message
+
 
 class ViewTests(TestCase):
 
