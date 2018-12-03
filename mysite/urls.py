@@ -19,5 +19,5 @@ from myapp.views import ListAndCreateView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'', ListAndCreateView.as_view(),name="list_and_create"),
+    url(r'', ListAndCreateView.as_view(), name="list_and_create"),
 ]
